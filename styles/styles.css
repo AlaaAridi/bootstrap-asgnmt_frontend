@@ -135,6 +135,15 @@
 }
 
 
+/* copyright section*/
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #152c42;
+}
+
+
 /*Utilities*/
 
 .container {

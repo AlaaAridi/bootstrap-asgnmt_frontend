@@ -104,6 +104,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 121vh;
 }
 
 .text-con {
@@ -112,6 +113,26 @@
 
 
 /*footer part*/
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2c3e50;
+    flex-wrap: wrap;
+}
+
+.footer-parts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 7vh;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
 
 
 /*Utilities*/
@@ -176,4 +197,22 @@
 
 .align-dash {
     align-content: center;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 28px
+}
+
+.icon {
+    border-color: white;
+    border-radius: 150%;
+    backface-visibility: hidden;
+    width: 5vh;
+    height: 5vh;
+}
+
+.greened {
+    color: #1abc9c;
+    text-decoration: underline;
 }

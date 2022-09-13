@@ -92,15 +92,33 @@
     border: 2px solid white;
     border-radius: 5px;
     width: 35vh;
+    text-align: center;
     cursor: pointer;
 }
+
+
+/*contact me part*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-con {
+    color: gray;
+}
+
+
+/*footer part*/
 
 
 /*Utilities*/
 
 .container {
     width: 100%;
-    text-align: center;
+    ;
 }
 
 .text {
@@ -137,7 +155,25 @@
     background-color: white;
 }
 
-.star-divider {
-    border-top: 10px solid #ffffff;
-    width: 100px;
+.star-divider-white {
+    border-top: 7px solid #ffffff;
+    width: 150px;
+}
+
+.star-divider-black {
+    border-top: 7px solid #000000;
+    width: 150px;
+}
+
+.line {
+    border: 1px solid gray;
+    width: 300px;
+}
+
+.align {
+    text-align: center;
+}
+
+.align-dash {
+    align-content: center;
 }
